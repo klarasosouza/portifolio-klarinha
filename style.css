@@ -12,7 +12,7 @@
  }
  header{
      padding: 32px;
-     background-color: rgb(178, 142, 94);
+     background-color: #b60a88;
      border-bottom: 5px solid #333 ;
      border-color: 40px solid #555;
  }
@@ -20,7 +20,7 @@
      text-align:center; /*Alinhamento no meio do header*/
  }
  header div a{
-     color:#2b020255;
+     color:#71245c;
      font-size: 20px;
      line-height: 9PX;
      margin: 0 16px;
