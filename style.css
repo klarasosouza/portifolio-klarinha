@@ -1,7 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 :root{
-    --subcor: #252525;
+    --subcor: #510000;
 }
 * { 
  margin:0;
@@ -9,72 +11,73 @@
  padding:0;
 }
  body{ 
-     background-color: rgb(3, 0, 9);
-     color:rgba(52, 5, 36, 0.47)
+     background-color: rgb(255, 255, 255);
+     color:rgba(171, 43, 43, 0.47)
  }
  header{
      padding: 32px;
 
-     background-color: #b60a88;
-     border-bottom: 5px solid #333 ;
+     background-color: #630909;
+     border-bottom: 5px solid #390404 ;
 
-     border-color: 40px solid #555;
+     border-color: 40px solid #700000;
  }
  header div{
-     text-align:center; /*Alinhamento no meio do header*/
+     text-align:center;
  }
  header div a{
-     color:#71245c;
-     font-size: 20px;
+     color:#fff9f9;
+     font-size: 10px;
      line-height: 9PX;
-     margin: 0 16px;
+     margin: 0 10px;
      text-decoration: none;
-     font-family: 'Winky Sans', sans-serif;
+     font-family: 'Winky sans', sans-serif;
  }
  
  header div a:hover {
-     color: #252525;
-     transition: color 700ms;
+     color: #d5d5d5;
+     transition: color 900ms;
  }
 
  #box {
   text-align: center; 
-  padding: 32px;
+  padding: 17px;
  }
 
  #box img {
     border-radius:50%;
-    border: 5px solid #860337;
+    border: 0px solid #7a0000;
     margin-bottom: 32px; 
  }
 
  #box h1 {
-    color:#860337;
-    font-size: 42px;
-    line-height: 20px;
+    color:#710000;
+    font-size: 32px;
+    line-height: 50px;
     font-weight: bold;
     text-decoration: none;
+    font-family: "Reenie Beanie", cursive;
  }
 
  #box h2 {
-    color:#a90846;
+    color:#910606;
     font-size:24px ;
     line-height:34px ;
     font-weight:normal ;
-    margin-top:3px ;
+    margin-top:1px ;
     opacity:0.8;
     text-decoration: none;
-    font-family: 'Winky Sans', sans-serif;
+    font-family: "Reenie Beanie", cursive;
  }
 
  #box a{ 
-    color:#9a697d;
+    color:#ffeeee;
     max-width:300px ;
     margin:30px auto ;
     font-weight:100px ;
-    line-height:0px ;
+    line-height:4px ;
     text-decoration: none;
-    font-family: 'Winky Sans', sans-serif;
+    font-family: 'Sans-serif', sans-serif;
  }
 
 .links {
@@ -82,7 +85,7 @@
 }
 
  .links a {
-    color:#860337;
+    color:#280404;
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
@@ -100,10 +103,10 @@
     padding: 2px;
  }
  #box p:hover{
-    font-size: 1px;
+    font-size: 2px;
 }
 #box a {
-    color: #71245c
+    color: #540303
 }
 #linksFooter {
     padding-top: 0px;
