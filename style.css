@@ -46,7 +46,7 @@
 
  #box img {
     border-radius:50%;
-    border: 0px solid #7a0000;
+    border: 1px solid #7a0000;
     margin-bottom: 32px; 
  }
 
